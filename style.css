@@ -1,0 +1,53 @@
+* {
+    font-family: 'Roboto' ;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 18px 18px;
+    gap: 27rem;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero h1 {
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.links {
+    gap: 15px;
+    display: flex;
+}
+
+.footer {
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
