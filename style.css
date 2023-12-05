@@ -81,7 +81,7 @@ a {
     width: 390px;
 }
 
-.content {
+.hero .content {
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -147,4 +147,44 @@ a {
     text-align: right;
     font-weight: 900;
     font-size: 25px;
+}
+
+.call {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-around;
+    width: 1000px;
+    align-self: center;
+    align-items: center;
+    margin: 120px;
+    border-radius: 9px;
+    height: 150px;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.call button {
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    background-color: inherit;
+    /* width: 100px; */
+    flex: 1;
+    max-width: 130px;
+    height: 40px;
+}
+
+.call .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.call .content > * {
+    margin: 0;
+}
+
+.call .content h1 {
+    font-size: 23px;
+    font-weight: 900;
 }
