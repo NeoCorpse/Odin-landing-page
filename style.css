@@ -127,3 +127,24 @@ a {
     font-weight: bolder;
     padding-top: 70px;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 130px 240px 70px;
+}
+
+.text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    margin-bottom: 0;
+}
+
+.thor {
+    text-align: right;
+    font-weight: 900;
+    font-size: 25px;
+}
